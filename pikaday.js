@@ -844,7 +844,7 @@
             }
 
             this._d = new Date(date.getTime());
-            setToStartOfDay(this._d);
+            //setToStartOfDay(this._d);
             this.gotoDate(this._d);
 
             if (this._o.field) {
